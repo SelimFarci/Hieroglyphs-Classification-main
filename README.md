@@ -74,9 +74,6 @@ The project uses the "EgyptianHieroglyphDataset Computer Vision Project" with 17
 python dataset_download_pretrained_classifier/download_dataset.py
 ```
 
-2. **Manual Download**:
-   - Visit: https://universe.roboflow.com/sameh-zaghloul/egyptianhieroglyphdataset
-   - Extract to `EgyptianHieroglyphDataset-1/`
 
 3. **Dataset Filtering** (to get top 40 classes):
 ```bash
@@ -206,12 +203,6 @@ mp.set_start_method('spawn', force=True)
 - Classification reports in CSV format
 - Integration with Weights & Biases (optional)
 
-## 📚 References
-
-1. [Egyptian Hieroglyph Dataset](https://universe.roboflow.com/sameh-zaghloul/egyptianhieroglyphdataset) - 3,584 images, 170 classes
-2. [Gardiner's Sign List](https://www.egyptianhieroglyphs.net/gardiners-sign-list/) - Classification system
-3. Dosovitskiy et al. (2020) - Vision Transformer architecture
-
 ## 🤝 Contributing
 
 This is an academic project completed as part of coursework. The repository serves as a reference for:
@@ -219,44 +210,4 @@ This is an academic project completed as part of coursework. The repository serv
 - Transfer learning strategies for specialized domains
 - Data augmentation techniques for limited datasets
 - Multi-class classification evaluation
-
-## 👥 Authors
-
-- Jade Piller-Cammal 
-- Estelle Tournassat 
-- Théo Parris
-- Alban Sarrazin 
-
-## 📄 License
-
-This project is for educational purposes. The dataset is provided by Roboflow under their respective license terms.
-
-## 🚧 Project Status: On Standby - Major Refactor Planned
-
-**⚠️ Important Notice**: This repository represents the initial academic submission. While the research methodology and results are interesting, the codebase has significant technical debt that needs addressing.
-
-### Current Issues Identified
-- **Code duplication** across multiple folders
-- **Poor code organization** with inconsistent naming and structure
-- **Hardcoded configurations** scattered throughout
-- **Error handling** and missing proper logging
-- **Mid reproducibility controls** (seeds, environment management)
-- **Manual experiment tracking** instead of automated solutions
-
-### 🛠️ Planned Improvements
-
-#### **1. Code Refactor**
-
-#### **2. Dataset Expansion**
-- Investigate larger hieroglyph datasets beyond current 40 classes
-- Explore museum collections and archaeological databases
-- Research synthetic data generation approaches
-
-#### **3. Technical Upgrades**
-- Experiment with modern architectures 
-- Experiment tracking with MLflow/WandB
-- Production deployment with API and web interface ? 
-
----
-
-**Status**: Academic submission - major refactor incoming  
+ 
